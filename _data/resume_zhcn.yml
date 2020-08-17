@@ -7,10 +7,10 @@ contact:
   - icon: fa-phone-square
     text: (+86) 13336001499
   - icon: fa-globe
-    text: wangxiaoer.com
+    text: pungfen.com
     link: https://pungfen.github.io/resume/resume_zh-CN.html
   - icon: fa-github
-    text: wangxiaoer
+    text: pungfen
     link: https://github.com/pungfen
 education:
   - university: "湖州师范大学"

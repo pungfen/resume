@@ -103,6 +103,15 @@ layout: default
             <div class="block-content">
               {{ project.description }}
             </div>
+            <div class="block-details">
+              {% for detail in project.details %}
+              <div class="details-title">
+                {{ detail.title }}
+              </div>
+              <div class="details-description">
+                {{ detail.description }}
+              </div>
+            </div>
           </div>
           {% endfor %}
         </div>

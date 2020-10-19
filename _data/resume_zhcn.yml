@@ -39,25 +39,13 @@ projects:
   - name: "以诺行询报价系统"
     contribution: "以诺行询报价系统旨在面向各个维修店以及车主，用最优最快的算法推荐给客户最需要的解决方案"
     description: "我进行框架搭建工作，编写业务组件，为其他前端人员提供快捷的开发环境"
-    details:
-      - title: "1"
-        description: "11111"
   - name: "以诺行车管家C端 & B端"
     contribution: "给客户提供方便的预约维修、车况检查、会员消费、服务提醒等功能，有效的提高了客户粘性。"
-    details:
-      - title: "1"
-        description: "11111"
   - name: "以诺行智能调色软件"
     contribution: "对接到最大的机修色母配方库，快速提供给喷漆人员最优的喷漆配方。"
     description: "利用Electron构建了桌面级应用程序，接入电子秤以及扫码枪api, 无需手动输入色母用量以及编号，扫码电子秤方便搞定"
-    details:
-      - title: "1"
-        description: "11111"
   - name: "以诺行官网"
     description: "采用了express + pug进行服务端渲染的技术，有良好的SEO优化, 采用的pug模板引擎能极高的提升代码复用和维护成本。"
-    details:
-      - title: "1"
-        description: "11111"
 
 languages:
   - name: "英语"

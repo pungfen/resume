@@ -103,7 +103,8 @@ layout: default
             <div class="block-content">
               {{ project.description }}
             </div>
-            <!-- <div class="block-details">
+            {% if project.details %}
+            <div class="block-details">
               {% for detail in project.details %}
               <div class="details-title">
                 {{ detail.title }}
@@ -112,7 +113,8 @@ layout: default
                 {{ detail.description }}
               </div>
               {% endfor %}
-            </div> -->
+            </div>
+            {% endif %}
           </div>
           {% endfor %}
         </div>

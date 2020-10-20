@@ -100,17 +100,16 @@ layout: default
             <div class="block-subtitle">
               {{ project.contribution }}
             </div>
+            {% if project.description %}
             <div class="block-content">
               {{ project.description }}
             </div>
-            {% if project.details %}
-            <div class="block-details">
-              {% for detail in project.details %}
-              <div class="details-title">
-                {{ detail.title }}
-              </div>
-              <div class="details-description">
-                {{ detail.description }}
+            {% endif %}
+            {% if project.descriptions %}
+            <div class="block-descriptions">
+              {% for description in project.descriptions %}
+              <div class="description-title">
+                {{ description.item }}
               </div>
               {% endfor %}
             </div>

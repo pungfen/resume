@@ -53,7 +53,7 @@ projects:
     description: "采用了express + pug进行服务端渲染的技术，有良好的SEO优化, 采用的pug模板引擎能极高的提升代码复用和维护成本。"
 
 languages:
-  - name: "英语"
+  - name: "英语4级"
     proficiency: "工作熟练"
   - name: "中文"
     proficiency: "母语"
